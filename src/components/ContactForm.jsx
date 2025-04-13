@@ -12,7 +12,7 @@ const ContactForm = () => {
 
         // 연락처 저장 장소 배열 phoneBook =[]
         // 연락처를 추가
-    }
+    };
     return (
         <Box display="flex" flexDirection="column" alignItems="center" gap={2}>
             <TextField id="name" label="이름" variant="outlined" value={name} onChange={(e) => setName(e.target.value)} />
