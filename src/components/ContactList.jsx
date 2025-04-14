@@ -5,7 +5,7 @@ const ContactList = () => {
     const { phoneBook } = usePhoneBookStore();
     console.log(phoneBook);
     return (
-        <div>
+        <div >
             {phoneBook.map((item) => (
                 <div key={item.id}>
                     <p>{item.name}</p>

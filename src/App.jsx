@@ -2,7 +2,8 @@ import { useState } from 'react'
 import './App.css'
 import { Grid, TextField } from '@mui/material'
 import ContactForm from './components/ContactForm'
-import ContactList from './components/ContactList'
+import ContactToggle from './components/ConatactToggle'
+import SearchBar from './components/SearchBar'
 
 
 function App() {
@@ -15,7 +16,8 @@ function App() {
           <ContactForm />
         </Grid>
         <Grid size={6}>
-          <ContactList />
+          <ContactToggle />
+          <SearchBar />
         </Grid>
       </Grid>
     </div>
